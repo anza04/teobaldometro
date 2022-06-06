@@ -1,0 +1,66 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    font-family: poppins;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(#01018b, #000);
+    background-repeat: no-repeat;
+}
+
+.t{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 30%;
+    font-weight: bold;
+    font-size: calc(10em + 5vw);
+    color: #fff;
+    font-style:oblique;
+}
+
+.title{
+    color: aliceblue;
+    font-size: calc(1em + 5vw);
+    font-weight:bolder;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.subtitle{
+    color: aliceblue;
+    font-size: calc(0.8em + 1vw);
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    text-align: center;
+    padding: 1%;
+    border-top: 5px solid white;
+}
+
+button{
+    width: 35%;
+    background: aliceblue;
+    height: 8%;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    background: transparent;
+    border: 3px solid white;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
